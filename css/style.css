@@ -1,5 +1,96 @@
 *{
-    background-color: lightsteelblue;
-    font-family: Arial, Helvetica, sans-serif;
-    color: slategray;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b4b7cd;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+}
+
+h1{
+    background-color: rgb(94, 94, 167);
+    border-radius: 15px;
+    color: rgb(47, 45, 69);
+    margin-bottom: 1px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container h2{
+    background-color: rgb(76, 76, 111);
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content{
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(76, 76, 111);
+    border-radius: 1opx;
+    color: black;
+    margin-bottom: 1px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.titulocuatro{
+    margin-top: 80px;
+    text-align: center;
+}
+
+p{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 300;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: center;
+    background-color: rgb(127, 127, 155);
+    border-radius: 15px;
+    color: black;
+}
+
+li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 140px;
+    position: relative;
+    float: left;
+    background-color: rgb(112, 112, 167);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+
+
